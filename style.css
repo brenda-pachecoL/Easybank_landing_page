@@ -1,4 +1,95 @@
-<style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
+body{
+    background-color: white;
+   
+}
+.container {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Public Sans', sans-serif;
+}
+header {
+    display: flex; 
+    justify-content: space-around;
+    background-color: white;
+    
+}
+.image_fondo{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: 100%;
+    
+}
+h1{
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    border-top: 10px;
+    border: thistle;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-color: thistle;
+    
+
+
+   
+}
+h2{
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+
+}
+p{
+    font-weight: 100;
+    color: hsl(233, 8%, 62%);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.picture_main{
+    width: 90%;
+
+}
+.information_main{
+
+    text-align: center;
+    
+}
+.information_container{
+    text-align: center;
+    
+}
+.image_information{
+    width: 30%;
+}
+.title_articles{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.articles {
+    text-align: center;
+}
+.img-style{
+    width: 80%;
+}
+footer {
+    text-align: center;
+}
+
+
+}
+
