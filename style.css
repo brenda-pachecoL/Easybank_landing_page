@@ -41,7 +41,6 @@ header {
 
 }
 .image_fondo{
-    background-color: aqua;
     display: flex;
     justify-content: center;
     background-image: url(images/bg-intro-mobile.svg);
@@ -161,7 +160,6 @@ footer {
     color: white;
 }
 i{
-    background-color: aqua;
     padding-right: 10px;
     width:6%; 
     height:6%;
@@ -175,9 +173,15 @@ a{
     padding-bottom: 10px;
 }
 .text_principal{
-    background-color: aqua;
 }
 .invite{
-
-    cursor: pointer;
+    border: 1px ;
+    padding: 10px;
+    color:hsl(0, 0%, 100%) ;
+    border-radius: 50px;
+    font-family: Public Sans;
+    background: linear-gradient(to right, Lime, Green);
+}
+button:active{
+    color: yellow;
 }
