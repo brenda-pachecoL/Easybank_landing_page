@@ -21,7 +21,7 @@
     <div class="main_menu">
     <img class="logo" src="images/logo.svg" alt="logo">
     <nav class="items_menu">
-      <ul>
+      <ul class="horizontal">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
@@ -32,29 +32,30 @@
       <span class="icon_menu">
         <i class="fas fa-bars"></i>
       </span>
+      <button id="bt_up"class="invite">Request Invite</button>
     </div>
   </header>
   
-  
-
-  <div class="image_fondo">
+<div class="body_container">
+ <div class="up_body">
+   <div class="image_fondo">
      <img class="picture_main" src="images/image-mockups.png" alt="">
-  </div>
+   </div>
 
- 
-  <div class="information_main">
-    <h1>Next generation digital banking</h1>
-    <p class="text_principal">Take your financial life online. Your Easybank account will be a one-stop-shop 
+   <div class="information_main">
+     <h1>Next generation digital banking</h1>
+      <p class="text_principal">Take your financial life online. Your Easybank account will be a one-stop-shop 
       for spending, saving, budgeting, investing, and much more.</p>
-    <button class="invite">Request Invite</button>
-  </div>
+     <button class="invite">Request Invite</button>
+   </div>
+ </div>
 
   <div class="information_container">
     <h2>Why choose Easybank?</h2>
     <p>We leverage Open Banking to turn your bank account into your financial hub. Control 
       your finances like never before.</p>
   </div>
-
+  <div class="between_body">
   <div class="information_container">
     <img class="image_information" src="images/icon-online.svg" alt="">
     <h2>Online Banking</h2>
@@ -79,8 +80,11 @@
     <p>Manage your savings, investments, pension, and much more from one account. Tracking 
       your money has never been easier.</p>
   </div>
+  </div>
+
+
+  <div class="under_body">
   <div class="title_articles">Latest Articles</div>
-  <div>
     <div class="articles">
       <img class="img-style" src="images/image-currency.jpg" alt="">
       <div class="descripcion_img">
@@ -91,7 +95,7 @@
          why should you be forced to only
           receive money in a single …</p>
      </div>
-    </div>
+    
     <div class="articles">
       <img class="img-style" src="images/image-restaurant.jpg" alt="">
       <div class="descripcion_img">
@@ -101,6 +105,7 @@
         realistic limits each month. That means you …</p>
       </div>
     </div>
+  </div>
   
   <div class="articles">
     <img  class="img-style" src="images/image-plane.jpg" alt="">
@@ -122,8 +127,9 @@
   </div>
   </div>
   </div>
+</div>
   <footer >
-    <img  class="logo" src="images/logo.svg" alt="">
+    <img id="logo_under" class="logo" src="images/logo.svg" alt="" >
     <p class="redes_sociales">
       <i class="fab fa-facebook-square"></i>
       <i class="fab fa-youtube"></i>
