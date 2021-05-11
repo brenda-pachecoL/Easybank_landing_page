@@ -43,6 +43,20 @@ header{
     background-size: 100%;
     position: relative;
 }
+.up-information{
+    padding: 10%;
+}
+.information-between{
+    padding: 10%;
+}
+.container-section{
+    padding: 10%;
+}
+.title-under{
+    padding: 10%;
+}
+
+
 .picture_up{
     width: 100%;
 }
