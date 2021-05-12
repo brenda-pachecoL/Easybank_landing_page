@@ -12,6 +12,10 @@ body{
 }
 .menu{
     display:none;
+
+}
+.decripcion_img{
+    padding: 7%;
 }
 .logo{
     padding: 10px;
@@ -27,7 +31,6 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: blueviolet;
     
 }
 .container{
@@ -65,4 +68,8 @@ header{
 }
 .img-style{
     width: 100%;
+}
+.between-container{
+    text-align: center;
+
 }
