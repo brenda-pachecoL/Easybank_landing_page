@@ -111,8 +111,13 @@ footer{
     
 }
 .btn-invite{
-    padding: 10px;
     width: fit-content;
-    margin: 20px;
-    
+    border: 1px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 50px;
+    font-family: Public Sans;
+    background: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    cursor: pointer;
+    height: 30px;
+    margin: 10px;
 }
