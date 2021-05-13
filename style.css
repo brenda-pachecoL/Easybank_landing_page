@@ -46,6 +46,9 @@ header{
     background-size: 100%;
     position: relative;
 }
+.up-container{
+    text-align: center;
+}
 .up-information{
     padding: 10%;
 }
