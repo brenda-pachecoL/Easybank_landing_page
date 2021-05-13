@@ -19,7 +19,7 @@ body{
 }
 .logo{
     padding: 10px;
-    width: auto;
+    width: fit-content;
     height: 20px;
 }
 .icon-hamburger{
@@ -81,9 +81,11 @@ footer{
     background-color: hsl(233, 8%, 62%);
 }
 .container-foteer{
+    display: flex;
+    flex-direction: column;
     width: 70%;
     padding: 30px;
-    text-align: center;
+    align-items: center;
 }
 .social-network{
     padding: 10px;
@@ -94,12 +96,20 @@ footer{
 }
 .under-list{
     color: white;
-    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    width: fit-content;
 }
 .menu-footer{
     display: flex;
     flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    
 }
 .btn-invite{
     padding: 10px;
+    width: fit-content;
+    margin: 20px;
+    
 }
