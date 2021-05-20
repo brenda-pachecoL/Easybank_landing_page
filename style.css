@@ -8,7 +8,7 @@ body{
     font-family: 'Public Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    Font size: 18px;
+    font-size: 18px;
 }
 .menu{
     display:none;
@@ -23,6 +23,7 @@ body{
 
 .decripcion_img{
     padding: 7%;
+    text-align: justify;
 }
 .logo{
     padding: 10px;
@@ -150,6 +151,16 @@ footer{
 }
 h1{
     font-weight: 700;
+}
+h2 {
+    font-weight: 300;
+}
+h3{
+    font-weight: 300;
+}
+p{
+   font-weight: 300;  
+   color: hsl(233, 8%, 62%);
 }
 
 @media screen and (min-width: 1000px) {
