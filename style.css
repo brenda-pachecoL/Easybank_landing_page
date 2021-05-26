@@ -10,12 +10,12 @@ body{
     flex-direction: column;
     font-size: 18px;
 }
-.menu{
-    display:none;
-}
-#menu-header{
+
+.menu-desktop{
     display: none;
+    background-color: rosybrown;
 }
+
 
 #btn-up{
     display: none;
@@ -23,7 +23,7 @@ body{
 
 .decripcion_img{
     padding: 7%;
-    text-align: justify;
+    text-align: initial;
 }
 .logo{
     padding: 10px;
@@ -80,9 +80,7 @@ header{
 .picture_up{
     width: 100%;
 }
-.informacion-container{
-    display: flex;
-}
+
 .img-style{ 
     width: 100%; 
     border-top-left-radius: 5%;
@@ -95,13 +93,14 @@ header{
 a {
     text-decoration: none;
     font-weight: 100;
+    color: black;
 }
 footer{
     
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: hsl(233, 8%, 62%);
+    background-color: hsl(233, 26%, 24%);
 }
 .container-foteer{
     display: flex;
@@ -122,6 +121,8 @@ footer{
     margin: 10px;
     text-decoration: none;
     width: fit-content;
+    font-size: 19px;
+    font-weight: 500;
 }
 
 .menu-footer{
@@ -150,10 +151,11 @@ footer{
     cursor:pointer; cursor: hand;
 }
 h1{
-    font-weight: 700;
+    font-weight: 400;
 }
 h2 {
     font-weight: 300;
+    color: hsl(233, 26%, 24%);
 }
 h3{
     font-weight: 300;
@@ -192,17 +194,7 @@ p{
         display:none;
     
     }
-    #menu-header{
-        display: flex;
-
-    }
-    .horizontal{
-        display: flex;
-    }
-    #menu-header li{
-        display: flex;
-        padding: 10px;
-    }
+    
     #btn-up{
         display: inline;
     
@@ -227,6 +219,7 @@ p{
    
     }
     .container-foteer{
+        width: 80%;
         display: flex;
         flex-direction: row;
         justify-content:space-between; 
@@ -254,5 +247,19 @@ p{
     .up-information{
         text-align: left;
         width: 40%;
+    }
+    .decripcion_img{
+      text-align: inherit;
+    }
+    .button{
+        width: 30%;
+        justify-content: flex-end;
+        display: flex;
+    }
+    .menu-desktop{
+        display: inline;
+    }
+    .menu-mobile{
+        display: none;
     }
 }
