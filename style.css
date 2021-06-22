@@ -10,7 +10,9 @@ body{
     flex-direction: column;
     font-size: 18px;
 }
-
+button {
+    background-color: aqua;
+}
 .menu-desktop{
     display: none;
     background-color: rosybrown;
@@ -46,13 +48,7 @@ header{
     width: 100%;
 }
 .up-images{
-    display: flex;
-    justify-content: center;
-    background-image: url(images/bg-intro-mobile.svg);
-    background-repeat: no-repeat;
-    background-position:right top;
-    background-size: 100%;
-    position: relative;
+   
 }
 .up-container{
     text-align: center;
@@ -88,13 +84,19 @@ header{
 }
 .between-container{
     text-align: center;
-
 }
-a {
-    text-decoration: none;
+a{
+    color: #000;
     font-weight: 100;
-    color: black;
-}
+  }
+  a:link{
+    text-decoration: none;
+  }
+  a:hover {
+    color:hsl(136, 65%, 51%);
+    cursor: pointer;
+  }
+
 footer{
     
     text-align: center;
@@ -116,6 +118,7 @@ footer{
     width: 100%;
     margin: auto;
 }
+
 .under-list{
     color: white;
     margin: 10px;
@@ -147,8 +150,9 @@ footer{
 .under-container{
     text-align: center;
 }
-.icon-social{
-    cursor:pointer; cursor: hand;
+ img:hover{
+    cursor: pointer;
+    background-image: hsl(136, 65%, 51%) ;
 }
 h1{
     font-weight: 400;
@@ -164,6 +168,16 @@ p{
    font-weight: 300;  
    color: hsl(233, 8%, 62%);
 }
+.svg-inline--fa{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+.svg-inline--fa:hover {
+    color:hsl(136, 65%, 51%);
+    cursor: pointer;
+  }
+
+
 
 @media screen and (min-width: 1000px) {
     body{
