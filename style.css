@@ -13,10 +13,7 @@ body{
 button {
     background-color: aqua;
 }
-.menu-desktop{
-    display: none;
-    background-color: rosybrown;
-}
+
 
 
 #btn-up{
@@ -47,8 +44,37 @@ header{
 .container{
     width: 100%;
 }
+.menu-desktop{
+    width: 30%;
+}
+.menu-desktop nav{    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-desktop nav ul{
+    padding: 10px;
+    font-weight: 300;  
+   color: hsl(233, 8%, 62%);
+    background-color: white;
+
+}
+.menu-desktop nav ul:hover{
+    color: black;
+    cursor: pointer;
+
+
+
+}
+
 .up-images{
-   
+    display: flex;
+    justify-content: center;
+    background-image: url(images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-size: 70%;
+    position: relative;
 }
 .up-container{
     text-align: center;
@@ -66,15 +92,23 @@ header{
     display: flex;
     flex-direction: column;
 }
-
+.button-hover:hover {
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-bottom-width: 5px;
+    border-image-source: linear-gradient(to right,#31D35C, #2BB7DA);
+   /* border-bottom: 2px solid linear-gradient(to right,#31D35C, #2BB7DA);*/
+}
 .title-under{    
     padding-left: 10%;
-    
 }
 
 
 .picture_up{
-    width: 100%;
+    width: 200px;
+	height: 400px;
+	object-fit: cover;
+	border: 3px solid #ff9daa;
 }
 
 .img-style{ 
@@ -176,6 +210,14 @@ p{
     color:hsl(136, 65%, 51%);
     cursor: pointer;
   }
+.button-hover:hover {
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-bottom-width: 5px;
+    border-image-source: linear-gradient(to right,#31D35C, #2BB7DA);
+   /* border-bottom: 2px solid linear-gradient(to right,#31D35C, #2BB7DA);*/
+
+  }
 
 
 
@@ -270,10 +312,5 @@ p{
         justify-content: flex-end;
         display: flex;
     }
-    .menu-desktop{
-        display: inline;
-    }
-    .menu-mobile{
-        display: none;
-    }
+    
 }
