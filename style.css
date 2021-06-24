@@ -182,6 +182,10 @@ footer{
     width: 100%;
     margin: auto;
 }
+svg:not(:root).svg-inline--fa{
+    font-size: 25px;
+}
+
 
 .under-list{
     color: white;
