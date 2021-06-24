@@ -15,7 +15,6 @@ button {
 }
 
 
-
 #btn-up{
     display: none;
 }
@@ -96,14 +95,22 @@ header{
 .menu-resposive{
     display: none;
 }
+
 .up-images{
     display: flex;
     justify-content: center;
     background-image: url(images/bg-intro-mobile.svg);
     background-repeat: no-repeat;
-    background-position:right top;
-    background-size: 70%;
-    position: relative;
+    position:relative;
+    width: 100%;
+    background-position: 0px -213px;
+    background-size: 100%;
+    
+}
+
+
+.picture_up{
+    width: 70%;
 }
 .up-container{
     text-align: center;
@@ -132,15 +139,7 @@ header{
 .title-under{    
     padding-left: 10%;
 }
-.up-images{
-    width: 100%;
-    clip-path: inset(28% 17% 0 0);
-}
 
-.picture_up{
-    width: 70%;
-    clip-path: inset(13% 15% 0 0%);
-}
 
 .img-style{ 
     width: 100%; 
