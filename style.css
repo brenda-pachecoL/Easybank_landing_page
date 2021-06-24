@@ -251,7 +251,14 @@ p{
     border-image-source: linear-gradient(to right,#31D35C, #2BB7DA);
    /* border-bottom: 2px solid linear-gradient(to right,#31D35C, #2BB7DA);*/
 
-  }
+}
+#descripcion{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, .6);
+}
+
 
 
 
