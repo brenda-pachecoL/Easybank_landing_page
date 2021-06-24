@@ -14,7 +14,6 @@ button {
     background-color: aqua;
 }
 
-
 #btn-up{
     display: none;
 }
@@ -103,7 +102,7 @@ header{
     background-repeat: no-repeat;
     position:relative;
     width: 100%;
-    background-position: 0px -213px;
+    background-position: 0px -50px;
     background-size: 100%;
     
 }
